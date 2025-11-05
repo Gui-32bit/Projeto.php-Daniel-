@@ -1,6 +1,0 @@
-<?php echo '<link rel="stylesheet" href="../style.css">'; ?>
-<?php
-
-$conexao = mysqli_connect("localhost", "root", "");
-
-$db = mysqli_select_db($conexao, "_projeto_1");
